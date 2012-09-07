@@ -25,7 +25,7 @@ Then on your code you can use it this way:
             [langohr.core  :as lhc]
             [monger.core :as mg]))
 
-    (defonce default-url "mongodb://127.0.0.1/mydb)
+    (defonce default-url "mongodb://127.0.0.1/mydb")
 
     (defn mongo-connect []
       (if (cf/cloudfoundry?)
