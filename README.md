@@ -45,6 +45,9 @@ Then on your code you can use it this way:
 - Improve Integration with Cloud Foundry services
 - Improve API for obatining services credentials/info
 
+## Credits
+
+The code is based on this [blog post](http://sunng.info/blog/2012/01/clojure-on-cloudfoundry/).
 
 ## License
 
