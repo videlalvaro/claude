@@ -3,6 +3,7 @@
   :url "http://example.com/FIXME"
   :license {:name "The MIT License"
             :url "http://opensource.org/licenses/mit-license.php"}
+  :profiles {:dev {:resource-paths ["test/resources"]}}
   :dependencies [[org.clojure/clojure "1.4.0"]
                  [org.clojure/data.json "0.1.3"]]
-    :plugins [[lein-swank "1.4.4"]])
+  :plugins [[lein-swank "1.4.4"]])
