@@ -4,6 +4,10 @@ A Clojure library designed to ease integration with Cloud Foundry
 
 NOTE: Work In Progress
 
+## Continuous Integration Status
+
+[![Continuous Integration status](https://secure.travis-ci.org/videlalvaro/claude.png)](http://travis-ci.org/videlalvaro/claude)
+
 ## Usage
 
 With leiningen add it to your project dependencies like this:
