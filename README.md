@@ -12,7 +12,7 @@ NOTE: Work In Progress
 
 With leiningen add it to your project dependencies like this:
 
-    [claude "0.1.0-SNAPSHOT"]
+    [claude "0.2.0-SNAPSHOT"]
 
 And with Maven you can do:
 
