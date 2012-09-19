@@ -20,7 +20,7 @@ And with Maven you can do:
 <dependency>
     <groupId>claude</groupId>
     <artifactId>claude</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+    <version>0.2.0-SNAPSHOT</version>
 </dependency>
 ```
 
@@ -51,11 +51,10 @@ Then on your code you can use it this way:
 
 - Add a proper `groupId` for the Maven repositories
 - Improve Integration with Cloud Foundry services
-- Improve API for obatining services credentials/info
 
 ## Credits
 
-The code is based on this [blog post](http://sunng.info/blog/2012/01/clojure-on-cloudfoundry/).
+The original version of this libraryt was based on this [blog post](http://sunng.info/blog/2012/01/clojure-on-cloudfoundry/).
 
 ## License
 
