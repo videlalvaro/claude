@@ -12,7 +12,7 @@ NOTE: Work In Progress
 
 With leiningen add it to your project dependencies like this:
 
-    [claude "0.2.0-SNAPSHOT"]
+    [claude "0.2.1-SNAPSHOT"]
 
 And with Maven you can do:
 
@@ -20,7 +20,7 @@ And with Maven you can do:
 <dependency>
     <groupId>claude</groupId>
     <artifactId>claude</artifactId>
-    <version>0.2.0-SNAPSHOT</version>
+    <version>0.2.1-SNAPSHOT</version>
 </dependency>
 ```
 

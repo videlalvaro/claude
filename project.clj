@@ -1,4 +1,4 @@
-(defproject claude "0.2.0-SNAPSHOT"
+(defproject claude "0.2.1-SNAPSHOT"
   :description "Utilities to connect Clojure apps to Cloud Foundry"
   :url "http://example.com/FIXME"
   :license {:name "Apache 2.0 License"
