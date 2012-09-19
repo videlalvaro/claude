@@ -28,20 +28,22 @@ Then on your code you can use it this way:
 
 ```clojure
 (ns my.namespace
-  (use: [claude.core :as cf]
-        [langohr.core  :as lhc]
-        [monger.core :as mg]))
+  (require: [claude.core :as cf]
+            [claude.mongodb :as cfm]
+            [claude.rabbitmq :as cfr]
+            [langohr.core  :as lhc]
+            [monger.core :as mg]))
 
 (defonce default-url "mongodb://127.0.0.1/mydb")
 
 (defn mongo-connect []
   (if (cf/cloudfoundry?)
-    (mg/connect-via-uri! (cf/mongo-url))
+    (mg/connect-via-uri! (cfm/url))
     (mg/connect-via-uri! default-url)))
 
 (defn rabbitmq-connect []
   (if (cf/cloudfoundry?)
-    (lhc/connect (lhc/settings-from (cf/rabbit-url)))
+    (lhc/connect (lhc/settings-from (cfr/url)))
     (lhc/connect)))
 
 (defonce ^Connection conn (rabbitmq-connect))
