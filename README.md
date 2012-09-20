@@ -56,7 +56,7 @@ Then on your code you can use it this way:
 
 ## Credits
 
-The original version of this libraryt was based on this [blog post](http://sunng.info/blog/2012/01/clojure-on-cloudfoundry/).
+The original version of this library was based on this [blog post](http://sunng.info/blog/2012/01/clojure-on-cloudfoundry/).
 
 ## License
 
